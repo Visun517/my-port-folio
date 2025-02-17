@@ -234,3 +234,57 @@
 
 
 
+        /*<!--    Skill section-->*/
+
+        #skills{
+            width: 100vw;
+            height: 190vh;
+            background-color: lightblue;
+
+            position: absolute;
+            top: 2600px;
+        }
+
+        #skill-header{
+            text-align: center;
+            font-weight: bold;
+        }
+        #Languages-div{
+            width: 90vw;
+            height: 40vh;
+            background-color: lightpink;
+        }
+        #Languages-header{
+            text-align: center;
+            font-weight: bold;
+        }
+        #development-div{
+            width: 90vw;
+            height: 40vh;
+            background-color: lightpink;
+            margin-top: 20px;
+        }
+        #frontend-div{
+            text-align: center;
+            font-weight: bold;
+        }
+        #Backend-Database-div{
+            width: 90vw;
+            height: 40vh;
+            background-color: lightpink;
+            margin-top: 20px;
+        }
+        #backend-div{
+            text-align: center;
+            font-weight: bold;
+        }
+        #tool-div{
+            width: 90vw;
+            height: 40vh;
+            background-color: lightpink;
+            margin-top: 20px;
+        }
+        #tools-header{
+            text-align: center;
+            font-weight: bold;
+        }
