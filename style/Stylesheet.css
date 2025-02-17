@@ -125,7 +125,7 @@
 
         #education{
             width: 100vw;
-            height: 120vh;
+            height: 100vh;
             background-color: lightblue;
 
             position: absolute;
@@ -135,8 +135,8 @@
             font-weight: bold;
             text-align: center;
         }
-        #article1{
+        .article1{
             width: 100vw;
-            height: 40vh;
+            height: 20vh;
             background-color: lightpink;
         }
