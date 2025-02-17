@@ -140,3 +140,56 @@
             height: 20vh;
             background-color: lightpink;
         }
+
+
+
+
+        /*<!--    Assigment section-->*/
+
+        #assignments{
+            width: 100vw;
+            height: 100vh;
+            background-color: lightblue;
+
+            position: absolute;
+            top: 1600px;
+        }
+
+        #assignments-header{
+            text-align: center;
+            font-weight: bold;
+        }
+
+        #assignments1{
+            width: 40vw;
+            height: 80vh;
+            background-color: lightpink;
+            margin-left: 40px;
+
+            position: absolute;
+            bottom: 40px;
+        }
+
+        #assignments2{
+            width: 40vw;
+            height: 80vh;
+            background-color: lightpink;
+            margin-right: 40px;
+
+            position: absolute;
+            right: 0;
+            top: 50px;
+        }
+
+        #left-arrow{
+            position: absolute;
+
+            top: 200px;
+        }
+
+        #right-arrow{
+            position: absolute;
+
+            right: 0;
+            top: 200px;
+        }
