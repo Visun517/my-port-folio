@@ -333,3 +333,40 @@
             bottom: 0;
             right: 0;
         }
+
+
+
+
+
+        /*<!--    footer section-->*/
+
+        #footer{
+            width: 100vw;
+            height: 50vh;
+            background-color: lightblue;
+
+            position: absolute;
+            top: 4000px;
+        }
+
+        #footer-div1{
+            width: 100vw;
+            height: 15vh;
+            background-color: lightpink;
+        }
+
+        #footer-div2{
+            width: 50vw;
+            height: 40vh;
+            background-color: yellow;
+        }
+
+        #footer-div3{
+            width: 50vw;
+            height: 40vh;
+            background-color: lightgreen;
+
+            position: absolute;
+            right: 0;
+            top: 70px;
+        }
