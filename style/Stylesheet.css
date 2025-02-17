@@ -193,3 +193,44 @@
             right: 0;
             top: 200px;
         }
+
+
+
+        /*<!--    Projects section-->*/
+
+        #projects{
+            width: 100vw;
+            height: 100vh;
+            background-color: lightblue;
+
+            position: absolute;
+            top: 2100px;
+        }
+
+        #project-header{
+            text-align: center;
+            font-weight: bold;
+        }
+
+        #projects-main-container{
+            width: 100vw;
+            height: 80vh;
+            background-color: lightpink;
+            margin-top: 20px;
+        }
+
+        #project-h3{
+            text-align: left;
+            font-weight: bold;
+            font-size: 1rem;
+            padding-top:10px;
+        }
+
+        #list-div{
+            width: 90vw;
+            height: 10vh;
+            background-color: lightblue;
+        }
+
+
+
