@@ -1,6 +1,10 @@
 
         /*Header section*/
 
+        body{
+            position: absolute;
+        }
+
         /* Reset Styles */
         * {
             margin: 0;
@@ -46,6 +50,9 @@
         }
 
 
+
+
+
         /*<!--        Home section-->*/
         #home{
             width: 100vw;
@@ -73,4 +80,63 @@
             position: absolute;
             right: 0;
             top: 0;
+        }
+
+
+
+
+        /*about section*/
+
+        #about{
+            width: 100vw;
+            height: 120vh;
+            background-color: yellow;
+
+            position: absolute;
+            top: 600px;
+
+        }
+
+        /*<!--        Right side image-->*/
+
+        #image_about{
+            width: 50vw;
+            height: 120vh;
+            background-color: gray;
+
+            position: absolute;
+        }
+
+        /*<!--        left side image-->*/
+
+        #left-about{
+            width: 50vw;
+            height: 120vh;
+            background-color: lightpink;
+
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+
+        /*<!--    Educational section-->*/
+
+
+        #education{
+            width: 100vw;
+            height: 120vh;
+            background-color: lightblue;
+
+            position: absolute;
+            top: 1150px;
+        }
+        #topic1{
+            font-weight: bold;
+            text-align: center;
+        }
+        #article1{
+            width: 100vw;
+            height: 40vh;
+            background-color: lightpink;
         }
