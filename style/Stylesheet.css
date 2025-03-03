@@ -67,16 +67,27 @@ body {
 #home {
     position: relative;
     height: 100vh;
-    display: flex;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     padding: 100px 50px 50px;
     background-color: #ecf0f1;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+}
+
+#home > div {
+    /*width: 50%;*/
+    /*height: 50%;*/
+    margin: 10px;
 }
 
 #left-side {
     position: relative;
-    width: 50%;
+    /*width: 50%;*/
     text-align: left;
 }
 
@@ -99,8 +110,12 @@ body {
 
 .social-links {
     display: flex;
-    gap: 15px;
-    margin-bottom: 20px;
+    gap: 10px;
+    /*margin-bottom: 10px;*/
+    /*position: absolute;*/
+    /*right: 30%;*/
+    /*bottom: 20%;*/
+
 }
 
 #social-links a img {
@@ -122,7 +137,7 @@ body {
 
 #right-side {
     position: relative;
-    width: 40%;
+    /*width: 40%;*/
     text-align: right;
 }
 
@@ -141,25 +156,34 @@ body {
 /* About Section Styles */
 #about {
     position: relative;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 50px;
     background-color: #fff;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+#about>div{
+    margin: 10px;
 }
 
 #image-about {
-    width: 40%;
     text-align: right;
 }
 
+#img2{
+    position: relative;
+    left: -20vh;
+}
+
 #image-about img {
-    width: 300px;
     border-radius: 50%;
 }
 
 #left-about {
-    width: 50%;
     text-align: left;
 }
 
@@ -243,24 +267,68 @@ body {
 
 }
 
-#assignments-header {
-    font-size: 36px;
-    color: #2c3e50;
-    margin-bottom: 20px;
+.slider{
+    height: 250px;
+    margin:auto;
+    position: relative;
+    width: 90%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+
+
+}
+.slid-track{
+    display: flex;
+    width: calc(250px * 18);
+    animation: scroll 40s linear infinite;
 }
 
-#assignments1, #assignments2 {
-    display: inline-block;
-    width: 40%;
-    height: 100vh;
-    background-color: rgba(132, 202, 255, 0.6);
-    margin: 0 10px;
-    vertical-align: middle;
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px * 9));
+    }
+}
+.slide{
+    height: 200px;
+    width:250px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    perspective: 100px;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+img{
+    width:100%;
+    transition: transform 0.1s;
+}
+img:hover{
+    transform: translateZ(20px);
 }
 
-#left-arrow, #right-arrow {
-    display: inline-block;
-    vertical-align: middle;
+.slider::before,
+.slider::after{
+    /*background:linear-greadiant(to right , rgba(255,255,255,1),0%,*/
+    rgba(255,255,255,0) 100%);
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 15%;
+    z-index: 2;
+}
+
+.slider::before{
+    left: 0;
+    top: 0;
+}
+.slider::after{
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
 }
 
 
@@ -351,9 +419,6 @@ body {
 
 
 
-
-
-
 /* Let's Connect Section Styles */
 #contact {
     position: relative;
@@ -414,8 +479,8 @@ body {
     position: relative;
     padding: 20px;
     background-color: #2c3e50;
-    /*tw-gradient-to: #111827 var(--tw-gradient-to-position);*/
-    color: #fff;
+    /*tw-gradient-to: #111827 var;*/
+    color: #fff;(--tw-gradient-to-position)
     text-align: center;
 }
 
@@ -454,4 +519,62 @@ body {
 
 #footer-div3 h3 {
     font-size: 14px;
+}
+
+
+@media all and (max-width: 1199px){
+
+    #home {
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+}
+
+@media all and (max-width: 1024px){
+
+    /*home*/
+    #home {
+        grid-template-columns: 1fr;
+    }
+
+    #img{
+        display: none;
+    }
+    #left-side{
+        text-align: center;
+        align-items: center;
+    }
+
+    #social-links{
+
+    }
+
+
+    /*about*/
+    #about {
+        grid-template-columns: 1fr;
+
+    }
+
+
+}
+
+@media all and (max-width: 768px){
+
+    #home {
+        grid-template-columns: 1fr;
+    }
+
+    #img2{
+        position: relative;
+        left:0;
+    }
+
+    #education{
+        font-size: 10px;
+    }
+
+
+
 }
