@@ -263,25 +263,32 @@ body {
     padding: 50px;
     background-color: #fff;
     text-align: center;
-    height: 150vh;
+    height: 120vh;
 
 }
 
+#assignments-header{
+    font-size: 36px;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 .slider{
-    height: 250px;
+    height: 60%;
     margin:auto;
     position: relative;
-    width: 90%;
+    width: 100%;
     display: grid;
     place-items: center;
     overflow: hidden;
-
+    background-color: rgb(229, 231, 235);
 
 }
 .slid-track{
     display: flex;
-    width: calc(250px * 18);
-    animation: scroll 40s linear infinite;
+    width: calc(30vw * 18);
+    animation: scroll 50s linear infinite;
 }
 
 @keyframes scroll {
@@ -293,13 +300,13 @@ body {
     }
 }
 .slide{
-    height: 200px;
-    width:250px;
+    height: 60vh;
+    width: 30vw;
     display: flex;
     align-items: center;
     padding: 15px;
     perspective: 100px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     margin-right: 10px;
 }
 img{
