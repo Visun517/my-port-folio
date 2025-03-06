@@ -8,8 +8,9 @@
     <meta name="author" content="Visun Prabodha">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/icon" href=".idea/assests/logo/Screenshot%202025-02-02%20170233.png">
-    <link rel="normalize" href="./assets/normalize/Css/normalize.css">
+    <link rel="normalize" href="/.idea/assests/normalize/normalize.css">
     <link rel="stylesheet" href="./style/Stylesheet.css">
+    <link rel="stylesheet" href="/.idea/assests/lib/font-awesome/css/all.min.css">
 </head>
     <body>
 
@@ -30,6 +31,8 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+
+        <i id="menu-icon" class="fa-solid fa-bars"></i>
     </header>
 
 
@@ -259,41 +262,83 @@
     <section id="skills">
         <h1 id="skill-header"> Skills </h1>
 
-        <div id="Languages-div">
-            <h3 id="Languages-header">Programming Languages</h3>
-            <!--  Java icon-->
-            <img src=".idea/assests/programming-skill/java.png" alt="Java-icon" style="width: 50px">
-            <!--  Js icon-->
-            <img src=".idea/assests/programming-skill/js.png" alt="JavaScript" style="width: 50px">
+        <div class="topic-div">
+            <div class="skill-topic"><h3 id="Languages-header">Programming Languages</h3></div>
+<!--            &lt;!&ndash;  Java icon&ndash;&gt;-->
+<!--            -->
+<!--            &lt;!&ndash;  Js icon&ndash;&gt;-->
+<!--            -->
+        </div>
+        <div class="skill-item-div1">
+            <div><img class="skill-item" src=".idea/assests/programming-skill/java.png" alt="Java-icon" style="width: 50px"></div>
+            <div><img class="skill-item" src=".idea/assests/programming-skill/js.png" alt="JavaScript" style="width: 50px"></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
 
-        <div id="development-div">
-            <h3 id="frontend-div">Frontend Development</h3>
-            <!--  HTML icon-->
-            <img src=".idea/assests/frontend-skill/html_1051277.png" alt="HTML" style="width: 50px">
-            <!--  CSS icon-->
-             <img src=".idea/assests/frontend-skill/css-3_732190.png" alt="CSS" style="width: 50px">
-
-        </div>
 
 
-        <div id="Backend-Database-div">
-            <h3 id="backend-div">Backend & Database</h3>
+        <div  class="topic-div">
+           <div class="skill-topic"> <h3 id="frontend-div">Frontend Development</h3> </div>
+<!--            &lt;!&ndash;  HTML icon&ndash;&gt;-->
+<!--            -->
+<!--            &lt;!&ndash;  CSS icon&ndash;&gt;-->
+<!--             -->
+         </div>
+
+            <div class="skill-item-div1">
+                <div><img class="skill-item" src=".idea/assests/frontend-skill/html_1051277.png" alt="HTML" style="width: 50px"></div>
+                <div><img class="skill-item" src=".idea/assests/frontend-skill/css-3_732190.png" alt="CSS" style="width: 50px"></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+
+
+
+        <div  class="topic-div">
+            <div class="skill-topic"><h3 id="backend-div">Backend & Database</h3></div>
             <!--  MySql icon-->
-            <img src=".idea/assests/backend-skill/mysql.png" alt="MYSql" style="width: 50px">
+<!--            -->
+            </div>
+
+            <div class="skill-item-div1">
+                <div><img class="skill-item" src=".idea/assests/backend-skill/mysql.png" alt="MYSql" style="width: 50px"></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+
+
+        <div  class="topic-div">
+            <div class="skill-topic"><h3 id="tools-header">Development Tools</h3></div>
+<!--            &lt;!&ndash;  VS Code icon&ndash;&gt;-->
+<!--            -->
+<!--            &lt;!&ndash;  GitHub icon&ndash;&gt;-->
+<!--            -->
+<!--            &lt;!&ndash;  IntelliJ icon&ndash;&gt;-->
+<!--            -->
+<!--            &lt;!&ndash;  Figma icon&ndash;&gt;-->
+<!--            -->
         </div>
 
-        <div id="tool-div">
-            <h3 id="tools-header">Development Tools</h3>
-            <!--  VS Code icon-->
-            <img src=".idea/assests/development-tools/visual-studio.png" alt="MYSql" style="width: 50px">
-            <!--  GitHub icon-->
-            <img src=".idea/assests/development-tools/github_3291695.png" alt="Git-hub" style="width: 50px">
-            <!--  IntelliJ icon-->
-            <img src=".idea/assests/development-tools/intellij-idea.svg" alt="IntelliJ" style="width: 50px">
-            <!--  Figma icon-->
-            <img src=".idea/assests/development-tools/figma.png" alt="MYSql" style="width: 50px">
-        </div>
+            <div class="skill-item-div1">
+                <div><img class="skill-item" src=".idea/assests/development-tools/visual-studio.png" alt="MYSql" style="width: 50px"></div>
+                <div><img class="skill-item" src=".idea/assests/development-tools/github_3291695.png" alt="Git-hub" style="width: 50px"></div>
+                <div><img class="skill-item" src=".idea/assests/development-tools/intellij-idea.svg" alt="IntelliJ" style="width: 50px"></div>
+                <div><img class="skill-item" src=".idea/assests/development-tools/figma.png" alt="MYSql" style="width: 50px"></div>
+                <div></div>
+                <div></div>
+            </div>
+
+
 
     </section>
 
@@ -304,63 +349,65 @@
     <!--    Let's Connect-->
     <section id="contact">
 
-        <h1 id="contact-header"> Let's Contact </h1>
+        <div id="header-container"><h1 id="contact-header"> Let's Contact </h1></div>
 
-        <!--        left side-->
-        <div id="contact-div-left">
-            <h3>Have something to say? We're here to help.
-                Fill out the form or reach out through any
-                of these channels.
-            </h3>
+       <div id="contact-form-container">
+           <!--        left side-->
+           <div id="contact-div-left">
+               <h3>Have something to say? We're here to help.
+                   Fill out the form or reach out through any
+                   of these channels.
+               </h3>
 
-            <!--            address div-->
-            <div>
-                <!--  address icon-->
-                <img src=".idea/assests/lets-connect-icon/location-pin_10080702.png" style="width: 30px" alt="address Image">
-                <h3>Rathnapura,Sri lanka.</h3>
-            </div>
+               <!--            address div-->
+               <div class="details-div">
+                   <!--  address icon-->
+                   <img class="icon1" src=".idea/assests/lets-connect-icon/location-pin_10080702.png" style="width: 30px" alt="address Image">
+                   <h3>Rathnapura,Sri lanka.</h3>
+               </div>
 
-            <!--            email div-->
-            <div>
-                <!--  email icon-->
-                <img src=".idea/assests/lets-connect-icon/email_3178158.png" style="width: 30px" alt="email Image">
-                <h3>visunpraboda999@gmail.com</h3>
-            </div>
+               <!--            email div-->
+               <div class="details-div">
+                   <!--  email icon-->
+                   <img class="icon1" src=".idea/assests/lets-connect-icon/email_3178158.png" style="width: 30px" alt="email Image">
+                   <h3>visunpraboda999@gmail.com</h3>
+               </div>
 
-            <!--            number  div-->
-            <div>
-                <!--  number icon-->
-                <img src=".idea/assests/lets-connect-icon/phone-call_455705.png" style="width: 30px" alt="number Image">
-                <h3>94701129916</h3>
-            </div>
+               <!--            number  div-->
+               <div class="details-div">
+                   <!--  number icon-->
+                   <img class="icon1" src=".idea/assests/lets-connect-icon/phone-call_455705.png" style="width: 30px" alt="number Image">
+                   <h3>94701129916</h3>
+               </div>
 
-        </div>
+           </div>
 
 
-        <!--        Right side -->
+           <!--        Right side -->
 
-        <div id="contact-div-right">
+           <div id="contact-div-right">
 
-            <!--            full name input-->
-            <input type="text" value="">
-            <h2> full name </h2>
-            </input>
+               <!--            full name input-->
+               <input type="text" value="">
+               <h2> full name </h2>
+               </input>
 
-            <!--            email address input-->
-            <input type="text" value="">
-            <h2> email Address </h2>
-            </input>
+               <!--            email address input-->
+               <input type="text" value="">
+               <h2> email Address </h2>
+               </input>
 
-            <!--            Your message input-->
-            <textarea>
+               <!--            Your message input-->
+               <textarea>
 
             </textarea>
 
-            <!--            send message button-->
-            <div>
-                <button type="submit"> Send your email </button>
-            </div>
-        </div>
+               <!--            send message button-->
+               <div>
+                   <button type="submit"> Send your email </button>
+               </div>
+           </div>
+       </div>
     </section>
 
 
@@ -405,6 +452,6 @@
 
     </section>
 
-
+    <script src="/.idea/assests/lib/font-awesome/js/all.min.js"></script>
     </body>
 </html>
