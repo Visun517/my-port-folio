@@ -11,9 +11,7 @@
 .container{
     width: 90vw;
 }
-#skills{
-    height: 170vh;
-}
+
 #footer{
     margin-top: 0;
     width: 100%;
@@ -366,7 +364,7 @@ img:hover{
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     padding: 25px;
-    margin: 0 15px 0 12vw;
+    margin: 0 15px 10vh 12vw;
     text-align: center;
     scroll-snap-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -614,7 +612,7 @@ img:hover{
 }
 
 #contact-form-container > div {
-    margin: 10px;
+    /*margin: 10px;*/
 }
 
 /* Left Side */
@@ -831,6 +829,13 @@ img:hover{
         margin-right: 10vw;
     }
 
+
+    /*contact*/
+    #contact-form-container {
+        grid-template-columns: 0.80fr;
+        grid-template-rows: 2fr;
+    }
+
 }
 
 
@@ -865,6 +870,14 @@ img:hover{
     .social-links{
         position: relative;
         left: 15vw;
+    }
+
+
+    /*contact*/
+    #contact-form-container {
+        grid-template-columns: 0.80fr;
+        grid-template-rows: 2fr;
+
     }
 }
 
@@ -904,6 +917,16 @@ img:hover{
         left: 20vw;
     }
 
+
+
+    /*contact*/
+    #contact-form-container {
+        grid-template-columns: 0.80fr;
+        grid-template-rows: 2fr;
+        margin-left: 0;
+
+    }
+
 }
 
 /* Tablet */
@@ -937,6 +960,15 @@ img:hover{
         position: relative;
         left: 20vw;
     }
+
+
+    /*contact*/
+    #contact-form-container {
+        grid-template-columns: 0.50fr;
+        grid-template-rows: 2fr;
+
+    }
+
 
 }
 
