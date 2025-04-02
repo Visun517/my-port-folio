@@ -123,7 +123,7 @@
 
 .social-links {
     display: flex;
-    gap: 10px;
+    /*gap: 10px;*/
     margin-bottom: 5vh;
     margin-top: 5vh;
 }
@@ -162,11 +162,8 @@
 
 /*!* About Section Styles *!*/
 #about {
+    background-color: #ecf0f1;
     padding: 100px 0 100px 0;
-    position: relative;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #fff;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -175,20 +172,6 @@
 #about>div{
     margin: 10px;
 }
-
-#image-about {
-    text-align: right;
-}
-
-#img2{
-    position: relative;
-    left: -20vh;
-}
-
-#image-about img {
-    border-radius: 50%;
-}
-
 #left-about {
     text-align: left;
 }
@@ -196,6 +179,13 @@
 #left-about h1 {
     font-size: 36px;
     color: #2c3e50;
+}
+#img2{
+    border-radius: 50%;
+    width:70%;
+
+    position: relative;
+    left: 20%;
 }
 
 #left-about h3 {
@@ -210,7 +200,7 @@
 }
 
 .social-links a {
-    margin-right: 15px;
+    margin-right:10px;
     text-decoration: none;
     color: #2c3e50;
     display: flex;
@@ -844,8 +834,14 @@ img:hover{
     #about {
         grid-template-columns: 1fr;
         grid-template-rows: 2fr;
-
     }
+    #left-about {
+        text-align: center;
+    }
+    .social-links{
+        margin-right: 10vw;
+    }
+
 }
 
 
@@ -873,7 +869,13 @@ img:hover{
     #about {
         grid-template-columns: 1fr;
         grid-template-rows: 2fr;
-
+    }
+    #left-about {
+        text-align: center;
+    }
+    .social-links{
+        position: relative;
+        left: 15vw;
     }
 }
 
@@ -891,6 +893,8 @@ img:hover{
     /*home*/
     #home {
         grid-template-columns: 1fr;
+
+
     }
     #img {
         display: none;
@@ -902,9 +906,14 @@ img:hover{
     #about {
         grid-template-columns: 1fr;
         grid-template-rows: 2fr;
-
     }
-
+    #left-about {
+        text-align: center;
+    }
+    .social-links{
+        position: relative;
+        left: 20vw;
+    }
 
 }
 
@@ -931,7 +940,13 @@ img:hover{
     #about {
         grid-template-columns: 1fr;
         grid-template-rows: 2fr;
-
+    }
+    #left-about {
+         text-align: center;
+     }
+    .social-links {
+        position: relative;
+        left: 20vw;
     }
 
 }
