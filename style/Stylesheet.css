@@ -268,10 +268,8 @@
 
 /*!* Assignments Section Styles *!*/
 #assignments {
-    position: relative;
     background-color: #fff;
     text-align: center;
-    /*height: 120vh;*/
 
 }
 
@@ -283,14 +281,12 @@
 }
 
 .slider{
-    height: 50%;
-    margin:auto;
     position: relative;
-    width: 100%;
     display: grid;
     place-items: center;
     overflow: hidden;
-    background-color: rgb(229, 231, 235);
+    background-color: #fff;
+    margin-bottom: 10vh;
 
 }
 .slid-track{
@@ -308,14 +304,13 @@
     }
 }
 .slide{
-    height: 60vh;
     width: 30vw;
     display: flex;
     align-items: center;
     padding: 15px;
     perspective: 100px;
-    /*border: 1px solid black;*/
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 img{
     width:100%;
