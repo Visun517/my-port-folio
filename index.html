@@ -11,6 +11,13 @@
     <link rel="normalize" href="/assests/normalize/normalize.css">
     <link rel="stylesheet" href="./style/Stylesheet.css">
     <link rel="stylesheet" href="/assests/lib/font-awesome/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+
 </head>
 <body id="main-container">
 <!--        Header section-->
@@ -35,15 +42,12 @@
 </header>
 
 
-
-
-
 <!--        Home section-->
-<section id="home" class="container">
+<section id="home" class="container" data-aos="fade-down">
     <!--        left side-->
     <div id="left-side">
-        <h1 id="name_h1"> Visun prabodha </h1>
-<!--        <h2 id="name_h2"> Software engineer </h2>-->
+        <h1 id="name_h1" class="animate__animated animate__zoomInDown"> Visun prabodha </h1>
+        <!--        <h2 id="name_h2"> Software engineer </h2>-->
         <h2 class="job">
             <span class="typing-text" data-text="Software Engineer">Software Engineer</span>
             <span class="cursor">_</span>
@@ -57,50 +61,55 @@
         <div class="social-links">
             <!--                LinkedIn icon-->
             <a href="https://www.linkedin.com/in/visun-prabodha-11324b2ba/"><img
-                    src="/assests/public/social-media-icon/linkedin_2504923.png" alt="LinkedIn icon" style="width: 30px"></a>
+                    src="/assests/public/social-media-icon/linkedin_2504923.png" alt="LinkedIn icon"
+                    style="width: 30px"></a>
             <!--                Instergram icon-->
-            <a href="https://www.instagram.com/visun_prabodha/"><img src="/assests/public/social-media-icon/instagram_2111463.png" alt="Instergram icon"
-                             style="width: 30px"></a>
+            <a href="https://www.instagram.com/visun_prabodha/"><img
+                    src="/assests/public/social-media-icon/instagram_2111463.png" alt="Instergram icon"
+                    style="width: 30px"></a>
             <!--                Facebook icon-->
-            <a href="https://web.facebook.com/visun.prebodha"><img src="/assests/public/social-media-icon/facebook_2504903.png" alt="Facebook icon"
-                             style="width: 30px"></a>
+            <a href="https://web.facebook.com/visun.prebodha"><img
+                    src="/assests/public/social-media-icon/facebook_2504903.png" alt="Facebook icon"
+                    style="width: 30px"></a>
             <!--                Git hub icon-->
-            <a href="https://github.com/Visun517"><img src="/assests/public/social-media-icon/github_3291695.png" alt="Git hub icon"
-                             style="width: 30px"></a>
+            <a href="https://github.com/Visun517"><img src="/assests/public/social-media-icon/github_3291695.png"
+                                                       alt="Git hub icon"
+                                                       style="width: 30px"></a>
         </div>
 
-        <button id="connect_button"> Let' s connect</button>
+        <button id="connect_button" class="animate__animated animate__bounce">
+            <a href="#contact">Let' s connect</a>
+        </button>
     </div>
 
 
     <!--        Right side-->
     <div id="right-side">
-       <picture >
-           <source srcset="assests/public/profiles/left.jpg">
-           <img id="img" src="assests/public/profiles/left.jpg" alt="profile">
-       </picture>
+        <picture>
+            <source srcset="assests/public/profiles/left.jpg" class="animate__backInDown">
+            <img id="img" data-aos="fade-up" src="assests/public/profiles/left.jpg" alt="profile">
+        </picture>
     </div>
 
 </section>
 
 
-
-
-
 <!--About section-->
-<section id="about" class="container">
+<section id="about" class="container" data-aos="fade-down">
 
     <div id="image-about">
-        <picture >
-            <source srcset="assests/public/profiles/left.jpg">
-            <img id="img2" src="assests/public/profiles/left.jpg" alt="profile">
+        <picture>
+            <source srcset="assests/public/profiles/right.jpg">
+            <img id="img2"
+                 src="assests/public/profiles/left.jpg" alt="profile" class="animate__backInDown">
+            <!--                 class="animate__animated animate__fadeInDown animate__repeat-2 animate__delay-2s"-->
         </picture>
     </div>
 
     <!--        left side image-->
     <div id="left-about">
         <h1> Who am I </h1>
-        <h3> Visun prabodha </h3>
+        <h3 class="animate__animated animate__zoomInDown"> Visun prabodha </h3>
         <h4>I am a passionate Software Engineering student with a love for technology and innovation.
             My coding journey began with curiosity and has grown into a passion for building modern web applications.
             I specialize in creating user-friendly, responsive designs that solve real-world problems.
@@ -110,43 +119,44 @@
 
         <div class="social-links">
             <!--                LinkedIn icon-->
-            <a href="https://www.linkedin.com/in/visun-prabodha-11324b2ba/"><img src="assests/public/social-media-icon/linkedin_2504923.png" alt="LinkedIn icon"
-                             style="width: 30px"></a>
+            <a href="https://www.linkedin.com/in/visun-prabodha-11324b2ba/"><img
+                    src="assests/public/social-media-icon/linkedin_2504923.png" alt="LinkedIn icon"
+                    style="width: 30px"></a>
             <!--                Instergram icon-->
-            <a href="https://www.instagram.com/visun_prabodha/"><img src="assests/public/social-media-icon/instagram_2111463.png" alt="Instergram icon"
-                             style="width: 30px"></a>
+            <a href="https://www.instagram.com/visun_prabodha/"><img
+                    src="assests/public/social-media-icon/instagram_2111463.png" alt="Instergram icon"
+                    style="width: 30px"></a>
             <!--                Facebook icon-->
-            <a href="https://web.facebook.com/visun.prebodha"><img src="assests/public/social-media-icon/facebook_2504903.png" alt="Facebook icon"
-                             style="width: 30px"></a>
+            <a href="https://web.facebook.com/visun.prebodha"><img
+                    src="assests/public/social-media-icon/facebook_2504903.png" alt="Facebook icon"
+                    style="width: 30px"></a>
             <!--                Git hub icon-->
-            <a href="https://github.com/Visun517"><img src="assests/public/social-media-icon/github_3291695.png" alt="Git hub icon"
-                             style="width: 30px"></a>
+            <a href="https://github.com/Visun517"><img src="assests/public/social-media-icon/github_3291695.png"
+                                                       alt="Git hub icon"
+                                                       style="width: 30px"></a>
         </div>
     </div>
 </section>
 
 
-
-
-
 <!--Education section-->
-<section id="education" class="container">
+<section id="education" class="container" data-aos="fade-down" >
 
     <h1 id="topic1"> Educational Journey </h1>
 
 
-    <article class="article1">
-        <img src="assests/public/logo/univeristy.png" alt="University icon" style="width: 30px" id="img1">
+    <article class="article1"  data-aos="fade-right">
+        <img src="assests/public/logo/univeristy.png" alt="University icon" style="width: 30px" class="img1">
         <h1 class="article-topic"> Institute of Software Engineering</h1>
-            <p>After completing my high school education,
+        <p>After completing my high school education,
             I pursued a graduate diploma in software engineering
             course at the Institute of Software Engineering.
         </p>
     </article>
 
 
-    <article class="article1">
-        <img src="assests/public/logo/univeristy.png" alt="University icon" style="width: 30px" id="img1">
+    <article class="article1 "  data-aos="fade-left">
+        <img src="assests/public/logo/univeristy.png" alt="University icon" style="width: 30px" class="img1">
         <h1 class="article-topic">Udagama Central College</h1>
         <p>
             G.C.E. Advanced Level (A/L)
@@ -157,7 +167,7 @@
     </article>
 
 
-    <article class="article1">
+    <article class="article1" data-aos="fade-right">
         <img src="assests/public/logo/univeristy.png" alt="University icon" style="width: 30px" id="img1">
         <h1 class="article-topic">R/Rassagal Maha vidyalaya</h1>
         <h2>I did my primary and secondary education well here.</h2>
@@ -171,77 +181,131 @@
 </section>
 
 
-
-
-
-
-<!--    Assigment section-->
-<section id="assignments" class="container">
-    <h1 id="assignments-header"> Assigment </h1>
+<section id="assignments" class="container" data-aos="fade-down">
+    <h1 id="assignments-header">Assignments</h1>
 
     <div class="slider">
-
         <div class="slid-track">
-
+            <!-- Assignment 1 -->
             <div class="slide">
-                <img src="/assignment-images/pic1.png">
-                <a href="https://github.com/Visun517/my-port-folio/blob/main/README.md"></a>
-            </div>
-            <div class="slide">
-                <img src="/assignment-images/pic1.png">
-                <a href="https://github.com/Visun517/my-port-folio"></a>
-            </div>
-            <div class="slide">
-                <img src="/assignment-images/pic1.png">
-                <a href="https://github.com/Visun517/assignment-03"></a>
-            </div>
-            <div class="slide">
-                <img src="/assignment-images/pic1.png">
-                <a href="https://github.com/Visun517/Home-take-assignment-04---Transition-Animation?authuser=0"></a>
-            </div>
-            <div class="slide">
-                <img src="/assignment-images/pic1.png">
-                <a href="https://github.com/Visun517/my-port-folio?authuser=0"></a>
-            </div>
-            <div class="slide">
-                <img src="/assignment-images/pic1.png">
-                <a href="https://github.com/Visun517/POS-system?authuser=0"></a>
-            </div>
-            <div class="slide">
-                <img src="/assignment-images/pic1.png">
-                <a href="https://github.com/Visun517/POS-system?authuser=0"></a>
-            </div>
-            <div class="slide">
-                <img src="/assignment-images/pic1.png">
-                <a href="https://github.com/Visun517/Assignment-08?authuser=0"></a>
-            </div>
-            <div class="slide">
-                <img src="/assignment-images/pic1.png">
-                <a href="https://github.com/Visun517/assignment-03"></a>
-            </div>
-            <div class="slide">
-                <img src="/assignment-images/pic1.png">
-                <a href="https://github.com/Visun517/Assignment-9?authuser=0"></a>
+                <div class="slide-content">
+                    <h3>Assignment 01</h3>
+                    <p>Portfolio Website Development - Created a responsive personal portfolio website using HTML, CSS, and JavaScript.</p>
+                    <button>
+                        <a href="https://github.com/Visun517/my-port-folio/blob/main/README.md">View assignment</a>
+                    </button>
+                </div>
             </div>
 
+            <!-- Assignment 2 -->
+            <div class="slide">
+                <div class="slide-content">
+                    <h3>Assignment 02</h3>
+                    <p>UI/UX Case Study - Designed and implemented a user interface for a mobile application focusing on usability.</p>
+                    <button>
+                        <a href="https://github.com/Visun517/my-port-folio">View assignment</a>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Assignment 3 -->
+            <div class="slide">
+                <div class="slide-content">
+                    <h3>Assignment 03</h3>
+                    <p>JavaScript Application - Developed an interactive web application using JavaScript and DOM manipulation.</p>
+                    <button>
+                        <a href="https://github.com/Visun517/assignment-03">View assignment</a>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Assignment 4 -->
+            <div class="slide">
+                <div class="slide-content">
+                    <h3>Assignment 04</h3>
+                    <p>CSS Transitions & Animations - Created advanced CSS animations and transitions to enhance user experience.</p>
+                    <button>
+                        <a href="https://github.com/Visun517/Home-take-assignment-04---Transition-Animation">View assignment</a>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Assignment 5 -->
+            <div class="slide">
+                <div class="slide-content">
+                    <h3>Assignment 05</h3>
+                    <p>Responsive Design Implementation - Implemented responsive design principles for cross-device compatibility.</p>
+                    <button>
+                        <a href="https://github.com/Visun517/my-port-folio">View assignment</a>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Assignment 6 -->
+            <div class="slide">
+                <div class="slide-content">
+                    <h3>Assignment 06</h3>
+                    <p>POS System Development - Created a Point of Sale system with inventory management features.</p>
+                    <button>
+                        <a href="https://github.com/Visun517/POS-system">View assignment</a>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Assignment 7 -->
+            <div class="slide">
+                <div class="slide-content">
+                    <h3>Assignment 07</h3>
+                    <p>Database Integration - Connected web applications to databases and implemented CRUD operations.</p>
+                    <button>
+                        <a href="https://github.com/Visun517/POS-system">View assignment</a>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Assignment 8 -->
+            <div class="slide">
+                <div class="slide-content">
+                    <h3>Assignment 08</h3>
+                    <p>API Development - Created RESTful APIs to enable communication between front-end and back-end components.</p>
+                    <button>
+                        <a href="https://github.com/Visun517/Assignment-08">View assignment</a>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Assignment 9 -->
+            <div class="slide">
+                <div class="slide-content">
+                    <h3>Assignment 09</h3>
+                    <p>Web Security Implementation - Implemented security best practices to protect web applications.</p>
+                    <button>
+                        <a href="https://github.com/Visun517/assignment-03">View assignment</a>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Assignment 10 -->
+            <div class="slide">
+                <div class="slide-content">
+                    <h3>Assignment 10</h3>
+                    <p>Performance Optimization - Analyzed and improved web application performance through code optimization.</p>
+                    <button>
+                        <a href="https://github.com/Visun517/Assignment-9">View assignment</a>
+                    </button>
+                </div>
+            </div>
         </div>
     </div>
-    <!--        <a id="right-arrow" href="#"><img src=".idea/assests/logo/right-arrow_534493(2).png" alt=">.image" style="width: 30px"></a>-->
 </section>
 
-
-
-
 <!--Project section-->
-<section id="projects" class="container">
+<section id="projects" class="container" data-aos="fade-down">
     <h1 id="project-header"> My projects </h1>
 
-    <a href="#" class="left-arrow"><img src="assests/public/logo/left-arrow_5344938.png" alt="<.image"
-                                        style="width: 30px"></a>
+    <div class="projects-main-container" data-aos="fade-right">
 
-    <div id="projects-main-container">
-
-        <h3 id="project-h3"> Stand Alone Application </h3>
+        <h3 class="project-h3"> Stand Alone Application </h3>
         <h2> University Registration System </h2>
 
         <p>
@@ -252,7 +316,7 @@
             emphasizing clean code and efficient architecture.
         </p>
 
-        <div id="list-div">
+        <div class="list-div">
 
             <div class="tech-stack">
                 <span class="tech-tag" style="--i: 1;">Java</span>
@@ -260,116 +324,93 @@
                 <span class="tech-tag" style="--i: 3;">MySQL</span>
                 <span class="tech-tag" style="--i: 4;">MVC</span>
             </div>
-            <a href="https://github.com/Visun517/university-registration-system-layard" class="view-project-btn"><i class="fa-brands fa-github"></i> View Project</a>
+            <a href="https://github.com/Visun517/university-registration-system-layard" class="view-project-btn"><i
+                    class="fa-brands fa-github"></i> View Project</a>
         </div>
     </div>
-    <a href="#" class="right-arrow"><img src="assests/public/logo/right-arrow_534493(2).png" alt=">.image" style="width: 30px"></a>
+
+
+    <div class="projects-main-container" data-aos="fade-left">
+
+        <h3 class="project-h3"> Stand Alone Application </h3>
+        <h2> Serenity mental health therapy center</h2>
+
+        <p>
+            The Serenity Mental Health Therapy Center is a desktop application developed using Java, JavaFX for the UI,
+            MySQL as the database, and a Layered Architecture for structuring the codebase. The primary goal of this
+            project is to implement a university registration system that enables students to register for courses, view
+            schedules, and manage their profiles through an intuitive interface. The admin panel provides staff members
+            with the ability to manage courses (add/edit/delete) and generate reports for administrative purposes.
+        </p>
+
+        <div class="list-div">
+
+            <div class="tech-stack">
+                <span class="tech-tag" style="--i: 1;">Java</span>
+                <span class="tech-tag" style="--i: 2;">JavaFX</span>
+                <span class="tech-tag" style="--i: 3;">MySQL</span>
+                <span class="tech-tag" style="--i: 4;">Layerd architecture</span>
+            </div>
+            <a href="https://github.com/Visun517/serenity-mental-health-therapy-center" class="view-project-btn"><i
+                    class="fa-brands fa-github"></i> View Project</a>
+        </div>
+    </div>
+
+    <div class="projects-main-container" data-aos="fade-right">
+
+        <h3 class="project-h3"> Stand Alone Application </h3>
+        <h2> Tic tac teo game </h2>
+
+        <p>
+            The Tic Tac Toe Game is a desktop application developed using Java, JavaFX for the UI, and the Minimax
+            algorithm for AI decision-making. The primary goal of this project is to create an engaging game where users
+            can play against an unbeatable AI or another player. It features a clean, interactive interface for seamless
+            gameplay, with the AI ensuring optimal moves for a challenging experience. </p>
+
+        <div class="list-div">
+
+            <div class="tech-stack">
+                <span class="tech-tag" style="--i: 1;">Java</span>
+                <span class="tech-tag" style="--i: 2;">JavaFX</span>
+                <span class="tech-tag" style="--i: 3;"> Mini Max algorithm</span>
+            </div>
+            <a href="https://github.com/Visun517/tictactoe" class="view-project-btn"><i class="fa-brands fa-github"></i>
+                View Project</a>
+        </div>
+    </div>
+
 </section>
-
-
-
-
 
 
 <!--Skill section-->
-<section id="skills" class="container">
+<section id="skills" class="container" data-aos="fade-down">
     <h1 id="skill-header"> Skills </h1>
 
-    <div class="topic-div">
-        <div class="skill-topic"><h3 id="Languages-header">Programming Languages</h3></div>
-        <!--            &lt;!&ndash;  Java icon&ndash;&gt;-->
-        <!--            -->
-        <!--            &lt;!&ndash;  Js icon&ndash;&gt;-->
-        <!--            -->
-    </div>
     <div class="skill-item-div1">
-        <div><img class="skill-item" src="assests/public/programming-skill/java.png" alt="Java-icon" style="width: 50px">
-        </div>
-        <div><img class="skill-item" src="assests/public/programming-skill/js.png" alt="JavaScript" style="width: 50px">
-        </div>
-        <div><img class="skill-item" src="assests/public/programming-skill/java.png" alt="Java-icon" style="width: 50px">
-        </div>
-        <div><img class="skill-item" src="assests/public/programming-skill/java.png" alt="Java-icon" style="width: 50px">
-        </div>
-        <div><img class="skill-item" src="assests/public/programming-skill/java.png" alt="Java-icon" style="width: 50px">
-        </div>
-        <div><img class="skill-item" src="assests/public/programming-skill/java.png" alt="Java-icon" style="width: 50px">
-        </div>
-    </div>
-
-
-    <div class="topic-div">
-        <div class="skill-topic"><h3 id="frontend-div">Frontend Development</h3></div>
-        <!--            &lt;!&ndash;  HTML icon&ndash;&gt;-->
-        <!--            -->
-        <!--            &lt;!&ndash;  CSS icon&ndash;&gt;-->
-        <!--             -->
-    </div>
-
-    <div class="skill-item-div1">
-        <div><img class="skill-item" src="assests/public/frontend-skill/html_1051277.png" alt="HTML" style="width: 50px">
-        </div>
-        <div><img class="skill-item" src="assests/public/frontend-skill/css-3_732190.png" alt="CSS" style="width: 50px">
-        </div>
-        <div><img class="skill-item" src="assests/public/frontend-skill/html_1051277.png" alt="HTML" style="width: 50px">
-        </div>
-        <div><img class="skill-item" src="assests/public/frontend-skill/html_1051277.png" alt="HTML" style="width: 50px">
-        </div>
-        <div><img class="skill-item" src="assests/public/frontend-skill/html_1051277.png" alt="HTML" style="width: 50px">
-        </div>
-        <div><img class="skill-item" src="assests/public/frontend-skill/html_1051277.png" alt="HTML" style="width: 50px">
-        </div>
-    </div>
-
-
-    <div class="topic-div">
-        <div class="skill-topic"><h3 id="backend-div">Backend & Database</h3></div>
-        <!--  MySql icon-->
-        <!--            -->
-    </div>
-
-    <div class="skill-item-div1">
-        <div><img class="skill-item" src="assests/public/backend-skill/mysql.png" alt="MYSql" style="width: 50px"></div>
-        <div><img class="skill-item" src="assests/public/backend-skill/mysql.png" alt="MYSql" style="width: 50px"></div>
-        <div><img class="skill-item" src="assests/public/backend-skill/mysql.png" alt="MYSql" style="width: 50px"></div>
-        <div><img class="skill-item" src="assests/public/backend-skill/mysql.png" alt="MYSql" style="width: 50px"></div>
-        <div><img class="skill-item" src="assests/public/backend-skill/mysql.png" alt="MYSql" style="width: 50px"></div>
-        <div><img class="skill-item" src="assests/public/backend-skill/mysql.png" alt="MYSql" style="width: 50px"></div>
-    </div>
-
-
-    <div class="topic-div">
-        <div class="skill-topic"><h3 id="tools-header">Development Tools</h3></div>
-    </div>
-
-    <div class="skill-item-div1">
-        <div><img class="skill-item" src="assests/public/development-tools/visual-studio.png" alt="MYSql"
-                  style="width: 50px"></div>
-        <div><img class="skill-item" src="assests/public/development-tools/github_3291695.png" alt="Git-hub"
-                  style="width: 50px"></div>
-        <div><img class="skill-item" src="assests/public/development-tools/intellij-idea.svg" alt="IntelliJ"
-                  style="width: 50px"></div>
-        <div><img class="skill-item" src="assests/public/development-tools/figma.png" alt="MYSql" style="width: 50px">
-        </div>
-        <div></div>
-        <div></div>
+        <div><img src="assests/public/programming-skill/js.png" class="skill-item"></div>
+        <div><img src="assests/public/programming-skill/java.png" class="skill-item"></div>
+        <div><img src="assests/public/development-tools/figma.png" class="skill-item"></div>
+        <div><img src="assests/public/development-tools/github_3291695.png" class="skill-item"></div>
+        <div><img src="assests/public/development-tools/visual-studio.png" class="skill-item"></div>
+        <div><img src="assests/public/development-tools/intellij-idea.svg" class="skill-item"></div>
+        <div><img src="assests/public/backend-skill/mysql.png" class="skill-item"></div>
+        <div><img src="assests/public/frontend-skill/css-3_732190.png" class="skill-item"></div>
+        <div><img src="assests/public/frontend-skill/html_1051277.png" class="skill-item"></div>
+        <div><img src="assests/public/frontend-skill/img.png" class="skill-item"></div>
     </div>
 
 </section>
 
 
-
-
-
 <!--Let's  contact -->
-<section id="contact" class="container">
+<section id="contact" class="container" data-aos="fade-down">
 
 
     <div id="header-container"><h1 id="contact-header"> Let's Contact </h1></div>
 
     <div id="contact-form-container">
         <!--        left side-->
-        <div id="contact-div-left">
+        <div id="contact-div-left" class=" animate__animated animate__backInLeft">
             <h3>Have something to say? We're here to help.
                 Fill out the form or reach out through any
                 of these channels.
@@ -404,7 +445,7 @@
 
         <!--        Right side -->
 
-        <div id="contact-div-right">
+        <div id="contact-div-right" class=" animate__animated animate__backInRight">
 
             <!--            full name input-->
             <input id="name-input" type="text" value="" placeholder="Enter your name">
@@ -425,56 +466,49 @@
 </section>
 
 
+<div class="footer">
+    <div class="footer-content">
+        <div class="connect-button"><a href="#contact">Let' s connect</a></div>
 
-
-
-<!--Footer section-->
-<footer id="footer" class="container">
-
-    <div id="footer-div1">
-        <h2>------------------------- Connect with me ------------------------- </h2>
-    </div>
-
-
-    <div id="footer-container">
-        <div id="footer-div2">
-
-            <h1>Let's connect </h1>
-            <p>Feel free to reach out for collaborations or just a friendly hello</p>
-
-            <div id="email">
-                <!--    email icon -->
-                <img src="assests/public/lets-connect-icon/email_3178158.png" style="width: 30px" alt="email Image">
-                <h3>visunpraboda999@gmail.com</h3>
+        <div class="footer-top">
+            <div class="title">Let's Connect</div>
+            <div class="subtitle">Feel free to reach out for collaborations or just a friendly hello</div>
+            <div class="contact">
+                <span class="contact-icon">✉️</span>
+                <span>visunpraboda999@gmail.com</span>
             </div>
-
         </div>
 
-
-
-        <div id="footer-div3">
-            <nav >
-                <div class="social-links1">
-                    <!--                LinkedIn icon-->
-                    <a href="https://www.linkedin.com/in/visun-prabodha-11324b2ba/"><img src="assests/public/social-media-icon/linkedin_2504923.png" alt="LinkedIn icon"
-                                     style="width: 30px"></a>
-                    <!--                Instergram icon-->
-                    <a href="https://www.instagram.com/visun_prabodha/"><img src="assests/public/social-media-icon/instagram_2111463.png" alt="Instergram icon"
-                                     style="width: 30px"></a>
-                    <!--                Facebook icon-->
-                    <a href="https://web.facebook.com/visun.prebodha"><img src="assests/public/social-media-icon/facebook_2504903.png" alt="Facebook icon"
-                                     style="width: 30px"></a>
-                    <!--                Git hub icon-->
-                    <a href="https://github.com/Visun517"><img src="assests/public/social-media-icon/github_3291695.png" alt="Git hub icon"
-                                     style="width: 30px"></a>
-                </div>
-
-                <h3>© 2025 All rights reserved</h3>
-                <h3>Design by, VISuN...😊</h3>
-            </nav>
+        <div class="footer-bottom">
+            <div class="copyright">© 2025 All rights reserved</div>
+            <div class="social-icons">
+                <a href="https://github.com/Visun517" class="social-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16" fill="currentColor" class="octicon octicon-mark-github">
+                        <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/visun-prabodha-11324b2ba/" class="social-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect width="4" height="12" x="2" y="9"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                </a>
+                <a href="https://web.facebook.com/visun.prebodha" class="social-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                    </svg>
+                </a>
+            </div>
+            <div class="design-by">Design By Visun</div>
         </div>
     </div>
-</footer>
+</div>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="/assests/lib/font-awesome/js/all.min.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
