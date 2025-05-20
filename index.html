@@ -510,5 +510,28 @@
 <script>
     AOS.init();
 </script>
+
+<script>
+
+    $('#send-btn').on('click', function () {
+        const phone = '9470112916'
+
+        const name = $('#name-input').val().trim();
+        const email = $('#email-input').val().trim();
+        const message = $('#message-text-area').val().trim();
+
+        const fullMessage =` Contact Form Message\n\n` +
+        `Name: ${name}\n` +
+        `Email: ${email}\n `+
+        `Message: ${message}`;
+
+        const encodedMessage = encodeURIComponent(fullMessage);
+
+        const url = `https://wa.me/${phone}?text=${encodedMessage}`;
+
+        window.open(url, '_blank');
+
+    });
+</script>
 </body>
 </html>
